@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <header class="header">
+        <img src="assets/calculator.f184db99-c5bd-46c8-bce3-207a8b68bdd1" alt="Icono calculadora"> 
+        <button class="burguer">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </button>       
+      </header>
+      <div class="container-header-menu">
+        <button class="header-menu minus">−</button>
+        <button class="header-menu square">□</button>
+        <button class="header-menu cross">X</button> 
+      </div>
+      <span class="calculator-type">Estándar</span>
+      <button type="button" class="header-menu refresh-icon"><img src="assets/refresh.svg" alt="refresh-icon"></button>
+      <button type="button" class="header-menu maximize-icon"><img src="assets/window-maximize.svg" alt="maximize-icon"></button>
+      
+      <div class="display">
+        
+        <div class="operation-display" id="operation-display"></div>
+        <div class="result-display" id="result-display"></div>
+        <div class="button-menu">
+          <button type="button">MC</button>
+          <button type="button">MR</button>
+          <button type="button">M+</button>
+          <button type="button">M-</button>
+          <button type="button">MS</button>
+          <button type="button">M↓</button>
+        </div>
+      </div>        
+      <button type="button" class="btn operation" value="%"><i class="fa-thin fa-percent"></i></button>
+      <button type="button" class="btn operation" value="π">π</button>
+      <button type="button" class="btn operation" value="c">C</button>
+      <button type="button" class="btn operation" value="return"><i class="fa-solid fa-delete-left"></i></button>
+      <button type="button" class="btn operation" value="1/x"><span class="sup"><sup>1</sup></span>/<span class="sub">x</span></button>
+      <button type="button" class="btn operation" value="^">x<span class="sup"><sup>2</sup></span></button>
+      <button type="button" class="btn operation" value="√"><span class="sup"><sup>2</sup></span><i class="fa-solid fa-square-root-variable"></i></button>
+      <button type="button" class="btn operation" value="/"><i class="fa-solid fa-divide"></i></button>
+      <button type="button" class="btn number" value="7">7</button>
+      <button type="button" class="btn number" value="8">8</button>
+      <button type="button" class="btn number" value="9">9</button>
+      <button type="button" class="btn operation" value="*"><i class="fa-solid fa-xmark"></i></button>
+      <button type="button" class="btn number" value="4">4</button>
+      <button type="button" class="btn number" value="5">5</button>
+      <button type="button" class="btn number" value="6">6</button>
+      <button type="button" class="btn operation" value="-"><i class="fa-solid fa-minus"></i></button>
+      <button type="button" class="btn number" value="1">1</button>
+      <button type="button" class="btn number" value="2">2</button>
+      <button type="button" class="btn number" value="3">3</button>
+      <button type="button" class="btn operation" value="+"><i class="fa-solid fa-plus"></i></button>
+      <button type="button" class="btn operation" value="abs"><span class="sup abs"><sup>+</sup></span>/<span class="sub abs">-</span></button>
+      <button type="button" class="btn number" value="0">0</button>
+      <button type="button" class="btn operation" value=".">,</button>
+      <button type="button" class="btn equal" value="="><i class="fa-solid fa-equals"></i></button>      
+    </div>  
+    <script src="js/index.js"></script>  
+    <script src="https://kit.fontawesome.com/c3db1c8a5f.js" crossorigin="anonymous"></script>
+  </body>
+</html>
