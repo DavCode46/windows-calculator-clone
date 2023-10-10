@@ -1,3 +1,9 @@
+/*
+  Nombre: David Menéndez Blanco
+  GitHub: https://github.com/DavidMenendezBlanco/windows-calculator-clone.git
+*/
+
+
 // Espera a que el contenido del documento HTML esté completamente cargado antes de ejecutar el código
 document.addEventListener("DOMContentLoaded", () => {
   const resultDisplay = document.getElementById("result-display");
