@@ -6,13 +6,20 @@ html{
     box-sizing: inherit;
 }
 
+body {
+    background-image: url('../assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .calculator{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-color: rgb(32, 32, 32);
     width: 40rem;
     height: 60rem;
-    margin: 0 auto;   
+    margin: 100px auto;   
 }
 .calculator-type{
     margin-bottom: 1rem;
